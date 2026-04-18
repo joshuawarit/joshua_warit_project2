@@ -16,3 +16,7 @@ https://www.markdownguide.org/basic-syntax/
 
 https://www.stefanjudis.com/blog/how-to-enable-beautiful-cursive-fonts-in-your-vs-code-theme/
 
+
+https://codepen.io/codypearce/pen/LYVoNGy
+
+https://codepen.io/onge/pen/KwdZpE

@@ -23,6 +23,7 @@
     
     stroke-width: 10;
     animation: letter-animation 4s linear forwards;
+    text-align: center;
 }
 
 @keyframes letter-animation {
@@ -220,48 +221,74 @@ p {
     }
 }
 
-/* Page 10 Animations (SEE PAGE 7)*/
+
+/* Page 18 Animations */
+
+@import url(https://fonts.googleapis.com/css?family=Hind:700);
 
 body {
-  font-family: cursive;
-  margin: 50px;
-  font-weight:bolder;
-  font-size:xx-large;
-  text-align: center;
+	font-family: cursive, sans-serif;
+	font-size: 900%;
+	color: black;
+	background: white;
+	text-align: center;
 }
 
-h1 {
-  animation: move 1s;
-  -webkit-animation: move 1s;
+span {
+	color: transparent;
+	animation: blur 10s ease-out infinite;
+	-webkit-animation: blur 10s ease-out infinite;
 }
 
-@keyframes move {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+span:nth-child(1) {
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
 }
-            
-@-webkit-keyframes move {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+span:nth-child(2) {
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+span:nth-child(3) {
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+span:nth-child(4) {
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+span:nth-child(5) {
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+span:nth-child(6) {
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+}
+span:nth-child(7) {
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
+@keyframes blur {
+	0%		{text-shadow:  0 0 100px black; opacity:0;}
+	5%		{text-shadow:  0 0 90px black;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px black;}
+	80%		{text-shadow:  0 0 0px black;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px black;}
+	100%	{text-shadow:  0 0 100px black; opacity:0;}
+}
+
+@-webkit-keyframes blur {
+	0%		{text-shadow:  0 0 100px black; opacity:0;}
+	5%		{text-shadow:  0 0 90px black;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px black;}
+	80%		{text-shadow:  0 0 0px black;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px black;}
+	100%	{text-shadow:  0 0 100px black; opacity:0;}
 }
 
 
