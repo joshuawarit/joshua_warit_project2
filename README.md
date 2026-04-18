@@ -1,4 +1,3 @@
-# joshua_warit_project2
 ## Project 2: "How to deal with post covid-19 years"
 #### by joshua warit
 March 19, 2026
@@ -16,3 +15,5 @@ https://www.makereadme.com/
 https://www.markdownguide.org/basic-syntax/
 
 https://www.stefanjudis.com/blog/how-to-enable-beautiful-cursive-fonts-in-your-vs-code-theme/
+
+https://codepen.io/m2rt/pen/KwXgaG
